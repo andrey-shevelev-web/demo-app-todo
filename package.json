@@ -1,0 +1,41 @@
+{
+  "name": "demo-app-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrey-shevelev-web/demo-app-todo"
+  },
+  "author": "Andrey Shevelev <andrey.shevelev.web@gmail.com>",
+  "homepage": "https://andrey-shevelev-web.github.io/demo-app-todo/",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "gh-pages": "~2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
